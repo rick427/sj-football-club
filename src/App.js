@@ -5,7 +5,8 @@ import Home from './pages/home/Home';
 import News from './pages/news/News';
 import UEFA from './components/Tables/UEFA';
 import Result from './pages/results';
-import LIGA from './components/Tables/LIGA';
+import APL from './components/Tables/APL';
+import ELC from './components/Tables/ELC';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         <Route exact path="/news" component={News}/>
         <Route exact path="/results" component={Result}/>
         <Route exact path="/uefa" component={UEFA}/>
-        <Route exact path="/liga" component={LIGA}/>
+        <Route exact path="/apl" component={APL}/>
+        <Route exact path="/elc" component={ELC}/>
       </Switch>
     </>
   );

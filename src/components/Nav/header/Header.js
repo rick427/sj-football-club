@@ -62,20 +62,20 @@ const Header = () => {
               <HeaderWrapper3>
                  <NavList2>
                     <NavListItem2>
-                        <NavLink2 to="/liga">LIGA</NavLink2>
+                        <NavLink2 to="/apl">APL</NavLink2>
                     </NavListItem2>
                     <NavListItem2>
                         <NavLink2 to="/uefa">UEFA</NavLink2>
                     </NavListItem2>
                     <NavListItem2>
-                        <NavLink2 to="/epl">ELC</NavLink2>
+                        <NavLink2 to="/elc">ELC</NavLink2>
                     </NavListItem2>
-                    <NavListItem2>
+                    {/* <NavListItem2>
                         <NavLink2 to="/super_cup">SUPER CUP</NavLink2>
                     </NavListItem2>
                     <NavListItem2>
                         <NavLink2 to="/world_cup">WORLD CUP</NavLink2>
-                    </NavListItem2>
+                    </NavListItem2> */}
                     <NavListItem2>
                         <Search 
                            placeholder="Search" 

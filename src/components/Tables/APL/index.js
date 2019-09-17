@@ -1,18 +1,18 @@
 import React, {useState, useEffect} from 'react';
 import {Spin, Table, Card, Row, Col} from 'antd';
-import {Container} from './elc-styles';
+import {Container} from './apl-styles';
 import Fade from 'react-reveal/Fade';
 import axios from 'axios';
 
-const URL = 'https://api.football-data.org/v2/competitions/ELC/matches';
+const URL = 'https://api.football-data.org/v2/competitions/SPL/matches';
 const token = process.env.REACT_APP_API_TOKEN;
 
-const ELC = () => {
+const APL = () => {
     const [loading, setLoading] = useState(null);
     const [matches, setMatches] = useState(null);
 
     useEffect(() => {
-        getMatches();
+        //getMatches();
       }, [])
   
       const getMatches = async () => {
@@ -122,4 +122,4 @@ const ELC = () => {
       )
 }
 
-export default ELC;
+export default APL;

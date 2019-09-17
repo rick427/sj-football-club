@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {Spin, Table, Card, Row, Col} from 'antd';
-import { Container } from '../LIGA/liga-styles';
+import { Container } from '../APL/apl-styles';
 import Fade from 'react-reveal/Fade';
 import axios from 'axios';
 
