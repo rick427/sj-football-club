@@ -42,16 +42,16 @@ const Header = () => {
                             <NavLink to="/">Home</NavLink>
                         </NavListItem>
                         <NavListItem>
-                            <NavLink to="/News">News</NavLink>
+                            <NavLink to="/news">News</NavLink>
                         </NavListItem>
                         <NavListItem>
-                            <NavLink to="/Results">Results</NavLink>
+                            <NavLink to="/results">Results</NavLink>
                         </NavListItem>
                         <NavListItem>
-                            <NavLink to="/Tables">Tables</NavLink>
+                            <NavLink to="/tables">Tables</NavLink>
                         </NavListItem>
                         <NavListItem>
-                            <NavLink href="#">About</NavLink>
+                            <NavLink to="/about">About</NavLink>
                         </NavListItem>
                     </NavList>
                 </Nav>
@@ -65,21 +65,21 @@ const Header = () => {
                         <NavLink_2 to="/liga">LIGA BBVA</NavLink_2>
                     </NavListItem_2>
                     <NavListItem_2>
-                        <NavLink_2 to="/liga">UEFA</NavLink_2>
+                        <NavLink_2 to="/uefa">UEFA</NavLink_2>
                     </NavListItem_2>
                     <NavListItem_2>
-                        <NavLink_2 to="/liga">EPL</NavLink_2>
+                        <NavLink_2 to="/epl">EPL</NavLink_2>
                     </NavListItem_2>
                     <NavListItem_2>
-                        <NavLink_2 to="/liga">SUPER CUP</NavLink_2>
+                        <NavLink_2 to="/super_cup">SUPER CUP</NavLink_2>
                     </NavListItem_2>
                     <NavListItem_2>
-                        <NavLink_2 to="/liga">WORLD CUP</NavLink_2>
+                        <NavLink_2 to="/world_cup">WORLD CUP</NavLink_2>
                     </NavListItem_2>
                     <NavListItem_2>
                         <Search 
                            placeholder="Search" 
-                           style={{width: 300}} 
+                           style={{width: 300, marginTop: '-1.5rem'}} 
                            onSearch={value => console.log(value)}
                         />
                     </NavListItem_2>

@@ -19,21 +19,47 @@ export const HeaderIcons = styled.div`
   width: 15%;
   transition: all 20s ease;
 
+  .icon_1{
+    color: #3b5998;
+    transition: all .6s ease;
+  }
+
   .icon_1:hover{
     color: #fff;
-    //transform: rotate(360deg);
+    transform: rotate(360deg);
     cursor: pointer;
   }
+
+  .icon_2{
+    color: #00acee;
+    transition: all .6s ease;
+  }
+
   .icon_2:hover{
     color: #fff;
+    transform: rotate(360deg);
     cursor: pointer;
   }
+
+  .icon_3{
+    color: #c4302b;
+    transition: all .6s ease;
+  }
+
   .icon_3:hover{
     color: #fff;
+    transform: rotate(360deg);
     cursor: pointer;
   }
+
+  .icon_4{
+    color: #3f729b;
+    transition: all .6s ease;
+  }
+
   .icon_4:hover{
     color: #fff;
+    transform: rotate(360deg);
     cursor: pointer;
   }
 `;
@@ -130,18 +156,23 @@ export const NavList = styled.ul`
 export const NavListItem = styled.li`
  padding: .7rem 1.5rem;
  margin-top: 1.35rem;
+ transition: transform 10s ease;
+
+ &:hover{
+  transform: translateY(-5px);
+ }
 `;
 
 export const NavLink = styled(Link)`
- text-decoration: none;
+ text-decoration: none !important;
  font-family: 'Poiret One', sans-serif;
  font-weight: 900;
  font-size: 1.1em;
- color: #555;
- transition: all 12s ease;
+ color: #555 !important;
 
  &:hover{
-    color: red;
+    color: #bf2c38 !important;
+    font-weight: bold;
  }
 `;
 
@@ -153,7 +184,7 @@ export const HeaderWrapper3 = styled.div`
   display: flex;
   border-bottom: 2px solid #999;
   box-shadow: 2px 5px 5px #ccc;
-  height: 10vh;
+  height: 7vh;
   background: #fff;
   justify-content: center;
   align-items: center;
@@ -169,8 +200,9 @@ export const NavList_2 = styled.ul`
 `;
 
 export const NavListItem_2 = styled.li`
- padding: .5rem 2.5rem;
+ padding: 1rem 2rem;
  border-left: 1px solid #999;
+ height: 3rem;
 `;
 
 export const NavLink_2 = styled(Link)`
@@ -178,13 +210,11 @@ export const NavLink_2 = styled(Link)`
  font-family: 'Poiret One', sans-serif;
  font-weight: 900;
  font-size: 1.1em;
+ padding: .5rem;
  color: #555;
- transition: all 12s ease;
 
  &:hover{
-  background: linear-gradient(red, blue);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #bf2c38;
  }
 `;
 /*****************END OF THIRD HEADER STYLES*****************/
