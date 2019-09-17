@@ -1,7 +1,7 @@
 import React from 'react';
 import {HeaderWrapper, HeaderWrapper2, HeaderIcons, Contact,   
     Donations, Title, LogoDiv, Nav, NavList, NavListItem,
-    NavLink, HeaderText,HeaderWrapper3, NavList_2, NavLink_2, NavListItem_2,
+    NavLink, HeaderText,HeaderWrapper3, NavList2, NavLink2, NavListItem2,
 } from './header-styles';
 import {Icon, Input} from 'antd';
 import Logo from '../../../utils/Logo';
@@ -60,31 +60,31 @@ const Header = () => {
 
             {/* Third Header */}
               <HeaderWrapper3>
-                 <NavList_2>
-                    <NavListItem_2>
-                        <NavLink_2 to="/liga">LIGA BBVA</NavLink_2>
-                    </NavListItem_2>
-                    <NavListItem_2>
-                        <NavLink_2 to="/uefa">UEFA</NavLink_2>
-                    </NavListItem_2>
-                    <NavListItem_2>
-                        <NavLink_2 to="/epl">EPL</NavLink_2>
-                    </NavListItem_2>
-                    <NavListItem_2>
-                        <NavLink_2 to="/super_cup">SUPER CUP</NavLink_2>
-                    </NavListItem_2>
-                    <NavListItem_2>
-                        <NavLink_2 to="/world_cup">WORLD CUP</NavLink_2>
-                    </NavListItem_2>
-                    <NavListItem_2>
+                 <NavList2>
+                    <NavListItem2>
+                        <NavLink2 to="/liga">LIGA</NavLink2>
+                    </NavListItem2>
+                    <NavListItem2>
+                        <NavLink2 to="/uefa">UEFA</NavLink2>
+                    </NavListItem2>
+                    <NavListItem2>
+                        <NavLink2 to="/epl">ELC</NavLink2>
+                    </NavListItem2>
+                    <NavListItem2>
+                        <NavLink2 to="/super_cup">SUPER CUP</NavLink2>
+                    </NavListItem2>
+                    <NavListItem2>
+                        <NavLink2 to="/world_cup">WORLD CUP</NavLink2>
+                    </NavListItem2>
+                    <NavListItem2>
                         <Search 
                            placeholder="Search" 
                            style={{width: 300, marginTop: '-1.5rem'}} 
                            onSearch={value => console.log(value)}
                         />
-                    </NavListItem_2>
+                    </NavListItem2>
 
-                 </NavList_2>
+                 </NavList2>
               </HeaderWrapper3>
             {/* End of Third Nav */}
         </header>

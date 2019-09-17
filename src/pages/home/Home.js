@@ -1,6 +1,6 @@
 import React from 'react';
 import { Banner, Div, Text, Sub } from './home-styles';
-import ball from  '../../assets/ball.jpg';
+//import ball from  '../../assets/ball.jpg';
 import green from  '../../assets/green.jpg';
 import Slide from 'react-reveal/Slide';
 

@@ -190,7 +190,7 @@ export const HeaderWrapper3 = styled.div`
   align-items: center;
 `;
 
-export const NavList_2 = styled.ul`
+export const NavList2 = styled.ul`
  list-style: none;
  display: flex;
  align-items: center;
@@ -199,13 +199,13 @@ export const NavList_2 = styled.ul`
  padding: 0;
 `;
 
-export const NavListItem_2 = styled.li`
+export const NavListItem2 = styled.li`
  padding: 1rem 2rem;
  border-left: 1px solid #999;
  height: 3rem;
 `;
 
-export const NavLink_2 = styled(Link)`
+export const NavLink2 = styled(Link)`
  text-decoration: none !important;
  font-family: 'Poiret One', sans-serif;
  font-weight: 900;
